@@ -1,0 +1,473 @@
+*
+{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* logo style */
+
+.logoc
+{
+  background-image:linear-gradient(black,rgb(31, 28, 28));
+  height:70px;
+  width: 100%;
+}
+
+#logo
+{
+  display: flex;
+}
+
+.logoimage
+{
+  margin-left: 35%;
+}
+
+.logotext
+{
+  font-family:Bad Script;
+  font-weight: bold;
+  font-size: 40px;
+  color: orangered;
+  padding: 10px 30px;
+  border-radius: 20%;
+}
+
+
+/* navigaion bar */
+
+nav
+{
+    background-color: rgb(31, 28, 28);
+    height:70px ;
+    width: 100%;
+}
+
+.login{
+  float: right;
+  margin: 30px 40px;
+}
+.login a:hover,.active
+{
+  background-color: orangered;
+}
+
+nav ul
+{
+  float: left;
+  margin-left:40px;
+  margin-top: 10px;
+  list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 30px;
+    margin : 10px 10px;
+}
+.login a,nav li a
+{
+  color:white;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  margin:20px;
+  padding: 10px 20px;
+  border-radius: 20%;
+  text-shadow: 2px 2px 5px orangered;
+}
+
+
+nav li a.active
+{
+  background: orangered;
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+nav li a:hover
+{
+  transition: 0.3s;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 2px orange dashed;
+}
+
+
+/* footer */
+
+main
+{
+  min-height: 600px;
+}
+
+footer
+{
+  background-image:linear-gradient(rgb(31, 28, 28),black);
+  height:170px;
+  width: 100%;
+  box-shadow:0px -2px white ,0px -3px orangered; 
+}
+
+.footercontainer
+{
+  position: absolute;
+  display: flex;
+  margin: 10px 30px;
+}
+.ft_para
+{
+  position: relative;
+  flex: 3;
+  font-size: 20px;
+  font-style: italic;
+}
+.ft_para h1
+{
+  font-family: Bad Script ;
+  color:orangered;
+  font-weight: bold;
+
+  text-shadow: 1px 0px black,-1px 0px black,0px -1px black,0px 1px black;
+}
+.ft_para p
+{
+  color: grey;
+  letter-spacing: 3px;
+  padding:0px 30px;
+}
+.ft_qcont
+{
+  margin: 10px 30px 0px 30px;
+  color:lightgray;
+}
+.ft_qcont h2
+{
+  font-size: 25px;
+  margin: 5px 20px 5px 20px;
+  text-shadow: 1px 0px black,-1px 0px black,0px -1px black,0px 1px black;
+}
+.ft_qcont li
+{
+  list-style: none;
+  margin: 8px;
+  text-align: center;
+}
+.ft_qcont li a
+{
+  padding:0px;
+  color: gray;
+  text-shadow: none;
+}
+.ft_qcont li a:hover
+{
+  color:orangered;
+  text-shadow: 0px 0px 2px white;
+}
+#ft_active
+{
+  color:orangered !important;
+  text-transform: uppercase;
+ 
+}
+
+.ft_contus
+{
+  color:gray;
+  text-align: center;
+}
+.ft_contus h2
+{
+  font-size: 25px;
+  padding: 10px;
+  color: lightgray;
+  text-shadow: 1px 0px black,-1px 0px black,0px -1px black,0px 1px black;
+}
+.ft_contus li
+{
+  font-size: 15px;
+  text-align: left;
+  padding: 2px 0px 2px 100px;
+  list-style: none;
+  margin: 5px;
+}
+.ft_socialmedia
+{
+  margin-top: 10px;
+}
+.ft_socialmedia a
+{
+  margin: 10px;
+  padding: 10px;
+  color:white;
+  text-shadow: 2px 2px 5px orangered;
+  font-size: 20px;
+  border-radius: 20%;
+}
+.ft_socialmedia a:hover
+{
+  border: 1px orange dashed;
+  transition:0.5s;
+  border-radius: 20px;
+  background-color: black;
+
+}
+#copyreserved
+{
+  text-align: center;
+  letter-spacing: 3px;
+  height: 15px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 0px orangered,-1px 0px orangered,0px -1px orangered,0px 1px orangered;
+  font-size: 10px;
+}
+ 
+
+
+/* login page */
+#login_page
+{
+  height: 100vh;
+  width:100%;
+  background-color: rgb(31, 28, 28);
+  background-image:url(d1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.black_back
+{
+  background-color: rgba(0,0,0,0.7);
+  height: 650px;
+}
+
+
+.loginp_container
+{
+  position: relative;
+  top:50px;
+  left:40%;
+  height:400px;
+  width: 300px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 1px 1px 3px orange,1px 1px 15px orange,1px 1px 50px orange;*/
+}
+.loginp_container h1
+{
+  position: relative;
+  font-family: Bad Script;
+  text-align: center;
+  font-size: 40px;
+  color:black;
+  text-shadow: 1px 0px orangered,-1px 0px orangered,0px -1px orangered,0px 1px orangered;
+  padding:10px;
+  border-radius: 20px;
+}
+.loginp_form
+{
+  position: relative;
+  margin: 15px 10px;
+  overflow: hidden;
+}
+.loginp_form label
+{
+  font-family: monospace;
+  font-size: 18px;
+  color: orangered;
+  letter-spacing: 2px;
+}
+.loginp_form input[type="text"],.loginp_container input[type="password"]
+{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid orange;
+    color: orange;
+}
+.loginp_form input[type="submit"],.loginp_form a
+{
+  margin:20px 20px 0px 0px;  
+  padding: 8px 10px;
+  color: orangered;
+  font-family: Bad Script;
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.loginp_form input[type="submit"]:hover
+{
+  color:black;
+  background-color:orange;
+  outline: none;
+}
+#create_account1 a
+{
+  position: relative;
+  top: -30px;
+  font-weight: lighter;
+  color: black;
+  font-size: 25px;
+}
+#create_account1 a:hover,.loginp_form a:hover
+{
+  color: orange !important;
+}
+
+/*Create_Account_page*/
+#create_account
+{
+  min-height: 100vh;
+  width:100%;
+  background-color: rgb(31, 28, 28);
+  background-image:url(d2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.black_back_account
+{
+  background-color: rgba(0,0,0,0.7);
+  min-height: 650px;
+}
+.black_back_account > h1
+{
+  color: orangered;
+}
+.form_create_account label,.form_create_account legend,.form_create_account p
+{
+  margin-left:50px;
+}
+.form_create_account input[type="text"]
+{
+  color: orangered !important;
+  font-size: 20px;
+  margin-left:50px;
+  border: none;
+  outline: none;
+  width: 30%;
+  background-color: transparent;
+  padding: 10px;
+  border-bottom: 1px solid orange;
+}
+.form_create_account textarea
+{
+  color: orangered !important;
+  font-size: 20px;
+  margin-left:50px;
+  border: none;
+  outline: none;
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid orange;
+}
+}
+.submit_create_account input[type="submit"]
+{
+  padding: 8px 10px;
+  color: orangered;
+  font-family: Bad Script;
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/*contact_us*/
+#contact_us
+{
+background-image: linear-gradient(rgb(31, 28, 28),black);
+color: blanchedalmond;
+height: 100vh; 
+ 
+}
+.flex_box_ConUS
+{
+  display: flex;
+  position: relative;
+  top:100px;
+  left:20%;
+}
+.flex_box_ConUS img
+{
+  border-radius: 50px;
+}
+.flex_box_ConUS img:hover
+{
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px orange,1px 1px 15px orange,1px 1px 50px orange,1px 1px 100px orange;
+}
+.flex_box_ConUS a
+{
+  position: absolute;
+  left:60%;
+  top:200px;
+  height: 50px;
+  width: 150px;
+  background-color: silver;
+  text-align: center;
+  padding:10px;
+  border-radius: 10px;
+  font-family: Bad Script;
+  color: orangered;
+  text-shadow: 1px 0px black, -1px 0px black,0px 1px black,0px -1px black;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.flex_box_ConUS a:hover
+{
+  box-shadow: 1px 1px 3px orange,1px 1px 15px orange,1px 1px 50px orange,1px 1px 100px orange;
+  background-color: orange;
+  color: black;
+  border: none;
+}
+
+/* contact */
+#contact
+{
+  min-height:150vh;
+  width:100%;
+  background-color: rgb(31, 28, 28);
+  background-image:url(love.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.black_back_contact
+{
+  background-color: rgba(0,0,0,0.5);
+  height: 650px;
+}
+.contact_grid
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contact_grid img 
+{
+  border:1px solid black;
+  padding: 10px;
+  background-color: black;
+  height: 300px;
+  width: 200px;
+}
+.contact_grid a:hover
+{
+  box-shadow: 1px 1px 3px orange,1px 1px 15px orange,1px 1px 50px orange,1px 1px 100px orange;
+  background-color: orange;
+}
+
+
+

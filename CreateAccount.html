@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <title>Finess Maniac...</title>
+<body>
+  <header>
+        <nav class="logoc">
+          <div id="logo">
+            <img class="logoimage" src="logo.png" height="100px" width="100px"/>
+            <p class="logotext">Fitness Maninac</p>
+          </div>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="#">video</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="FitnessTracker.html">fitness tracker</a></li>
+            <li><a href="ContactUs.html">Contact US</a></li>
+          </ul>
+          <div class="login"><a  class="active" href="login.html">Login / Signup</a></div>
+        </nav>
+  </header>
+
+  <main id="create_account">
+  <div class="black_back_account">    
+
+      <h1>Personal Information</h1>
+        <form class="form_create_account" style="font-size: 20px; color: orange; font-family: Bad Script; padding:10px; margin: 10px; word-spacing: 5px;">
+  <label for="fname">   First Name : </label>
+  <input type="text" name="fname"  placeholder="Omkar" style="opacity: 0.7;" required ><br>
+      <label name=Lname>   Last Name :</label>
+      <input type="text" name="lname" placeholder="Patil" style="opacity: 0.7;" required><br>
+   <label for="gender">   Gender : </label>
+
+ <label for="female">   Female </label>
+ <input type="radio" name="gender" id="female"> 
+<label for="male">  Male</label>
+<input type="radio" name="gender" id="male"><br>
+<label for="nationality">   Nationality:</label>
+<select name="nationality">
+<option value="cnd"> Canada</option>
+<option value="ind">India</option>
+<option value="nep">Nepal</option>
+<option value="uk">United Nation</option>
+</select><br><br>
+ <label for="address">  Address : </label>
+<textarea name="address" rows="4" cols="70" style="opacity: 0.7;" required></textarea>
+
+<legend>  Medical History</legend>
+ <label for="smallp"> Smallpox </label>
+ <input type="radio" name="medhis" id="smallpx">
+ <label for="Mmums">  Mumps </label>
+ <input type="radio" name="medhis" id="Mumps">
+ <label for="Dizz"> Dizziness </label>
+ <input type="radio" name="medhis" id="Dizz">
+   <label for="sniz"> Sneezing</label>
+   <input type="radio" name="medhis" id="sniz"><br>
+   <label for="resume"> Medical Reports</label> 
+  <input type="file" id="resume">
+
+  <legend>  Current Medication</legend>
+  <p>   Are you currently taking any medication ?
+  <input type="radio" name="med" id="yes" required>
+  <label for="yes"> YES</label>
+  <input type="radio" name="med" id="no" required>
+   <label for="no"> NO</label><br>
+     <p>IF you are curtently taking any medicine please indicate if it is space below:</p>
+          <textarea name="med" rows="4" cols="70" style="opacity: 0.7;"></textarea required><br><br>
+      <input type="submit" value="Submit"  required style="margin-left: 50%;padding: 8px 10px;color: orangered;font-family: Bad Script; background-color: transparent;box-shadow: none;font-size: 18px;font-weight: bold;border-radius: 20px;">
+      </form>  
+
+      </div>
+    </div>
+        
+  </main>
+
+  <footer>
+    <div class="footercontainer">
+      <div class="ft_para">
+        <h1>Fitness Maniac</h1>
+        <p>Our aim is to make India fit,this is free website which guide you towards fit and healty lifestyle by simple means of lifestyle to practice</p>
+      </div>
+      <div class="ft_qcont">
+        <h2>Quick Contain</h2>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Video</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="FitnessTracker.html">Finess Cal</a></li>
+        </ul>
+      </div>
+      <div class="ft_contus">
+       <h2>Contact US</h2>
+       <ul>
+        <li><i class="fa fa-map-marker" aria-hidden="true">  CDAC,juhu</i></li>
+      <li><i class="fa fa-envelope-o" aria-hidden="true">  Patilomkar702@gmail.com</i></li>
+        <li><i class="fa fa-phone" aria-hidden="true">  8652533332</i></li>
+       </ul>
+       <ul class="ft_socialmedia">     
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+       </ul>
+      </div>
+    </div>
+  </footer>
+  <div id="copyreserved">
+    copy reserved &copy; Omkar Patil,2020 WebPage
+  </div>
+  
+</body>
+</html>
