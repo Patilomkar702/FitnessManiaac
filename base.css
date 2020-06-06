@@ -416,26 +416,30 @@ height: 100vh;
   position: absolute;
   left:60%;
   top:200px;
-  height: 50px;
-  width: 150px;
+  height: 75px;
+  width: 250px;
   background-color: silver;
   text-align: center;
   padding:10px;
   border-radius: 10px;
   font-family: Bad Script;
-  color: orangered;
-  text-shadow: 1px 0px black, -1px 0px black,0px 1px black,0px -1px black;
-  font-weight: bold;
+  color: black;
+  font-weight: bolder;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 40px;
   border: 2px solid black;
+  transition-duration: 2s;
+  transition-property: all;
 }
 .flex_box_ConUS a:hover
 {
   box-shadow: 1px 1px 3px orange,1px 1px 15px orange,1px 1px 50px orange,1px 1px 100px orange;
   background-color: orange;
-  color: black;
+  color: orange;
+  text-shadow: none;
   border: none;
+  transform: rotate(180deg);
+
 }
 
 /* contact */
