@@ -5,6 +5,10 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+main
+{
+  min-height: 100vh;
+}
 
 /* logo style */
 
@@ -437,7 +441,7 @@ height: 100vh;
 /* contact */
 #contact
 {
-  min-height:150vh;
+  min-height:200vh;
   width:100%;
   background-color: rgb(31, 28, 28);
   background-image:url(love.jpg);
@@ -454,6 +458,7 @@ height: 100vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+
 }
 .contact_grid img 
 {
@@ -462,7 +467,9 @@ height: 100vh;
   background-color: black;
   height: 300px;
   width: 200px;
+  margin: 10px;
 }
+
 .contact_grid a:hover
 {
   box-shadow: 1px 1px 3px orange,1px 1px 15px orange,1px 1px 50px orange,1px 1px 100px orange;
