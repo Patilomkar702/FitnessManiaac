@@ -18,7 +18,7 @@
         <nav>
           <ul>
             <li><a href="home.html">home</a></li>
-            <li><a href="video.html">video</a></li>
+            <li><a href="#" class="ft_active">video</a></li>
             <li><a href="service.html">services</a></li>
             <li><a href="FitnessTracker.html">fitness tracker</a></li>
             <li><a href="ContactUs.html">Contact US</a></li>
@@ -27,54 +27,11 @@
         </nav>
   </header>
 
-  <main id="create_account">
-  <div class="black_back_account">    
-
-      <h1>Personal Information</h1>
-        <form class="form_create_account" style="font-size: 20px; color: orange; font-family: Bad Script; padding:10px; margin: 10px; word-spacing: 5px;">
-  <label for="fname">   First Name : </label>
-  <input type="text" name="fname"  placeholder="Omkar" style="opacity: 0.7;" required ><br>
-      <label name=Lname>   Last Name :</label>
-      <input type="text" name="lname" placeholder="Patil" style="opacity: 0.7;" required><br>
-   <label for="gender">   Gender : </label>
-
- <label for="female">   Female </label>
- <input type="radio" name="gender" id="female"> 
-<label for="male">  Male</label>
-<input type="radio" name="gender" id="male"><br>
-<label for="nationality">   Nationality:</label>
-<select name="nationality">
-<option value="cnd"> Canada</option>
-<option value="ind">India</option>
-<option value="nep">Nepal</option>
-<option value="uk">United Nation</option>
-</select><br><br>
- <label for="address">  Address : </label>
-<textarea name="address" rows="4" cols="70" style="opacity: 0.7;" required></textarea>
-
-<legend>  Medical History</legend>
- <label for="smallp"> Smallpox </label>
- <input type="radio" name="medhis" id="smallpx">
- <label for="Mmums">  Mumps </label>
- <input type="radio" name="medhis" id="Mumps">
- <label for="Dizz"> Dizziness </label>
- <input type="radio" name="medhis" id="Dizz">
-   <label for="sniz"> Sneezing</label>
-   <input type="radio" name="medhis" id="sniz"><br>
-   <label for="resume"> Medical Reports</label> 
-  <input type="file" id="resume">
-
-  <legend>  Current Medication</legend>
-  <p>   Are you currently taking any medication ?
-  <input type="radio" name="med" id="yes" required>
-  <label for="yes"> YES</label>
-  <input type="radio" name="med" id="no" required>
-   <label for="no"> NO</label><br>
-     <p>IF you are curtently taking any medicine please indicate if it is space below:</p>
-          <textarea name="med" rows="4" cols="70" style="opacity: 0.7;"></textarea required><br><br>
-      <input type="submit" value="Submit"  required style="margin-left: 50%;padding: 8px 10px;color: orangered;font-family: Bad Script; background-color: transparent;box-shadow: none;font-size: 18px;font-weight: bold;border-radius: 20px;">
-      </form>  
-
+  <main id="video_page">
+    <div class="box_video_page">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/MnQ5_K-41Xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h1>This Will Guid You to find Your inner Peace</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cnKZit6VB44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
         
@@ -90,7 +47,7 @@
         <h2>Quick Contain</h2>
         <ul>
           <li><a href="home.html">Home</a></li>
-          <li><a href="video.html">Video</a></li>
+          <li><a href="video.html" id=ft_active>Video</a></li>
           <li><a href="service.html">Service</a></li>
           <li><a href="FitnessTracker.html">Finess Cal</a></li>
         </ul>
